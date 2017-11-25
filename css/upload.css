@@ -1,0 +1,19 @@
+body {
+			background-image:url('../images/homepage2/underground.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 100%;
+			}
+
+body span{
+	color: white;
+}
+
+li{
+	list-style: none;
+
+}
+
+#upload{
+	color: black;
+}

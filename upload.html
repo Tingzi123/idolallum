@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>upload</title>
+	<link href="bootstrap/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/upload.css" rel="stylesheet"/>
+	
+</head>
+<body>
+	<form action="" id="uploadForm" enctype="multipart/form-data">
+		<!-- 表单标签中设置enctype="multipart/form-data"用于表单里有图片上传,确保匿名上载文件的正确编码,是上传二进制数据; form里面的input的值以2进制的方式传过去 -->
+		 <!-- multipart/form-data： 窗体数据被编码为一条消息，页上的每个控件对应消息中的一个部分 -->
+		<ul>
+			<li><input type="file" name="file"></li>
+			<li><span>上传者：</span><input type="text"  name="name"></li>
+			<!-- <li>时 间：<input type="text" name="time"></li> -->
+			<li><span>地 点：</span><input type="text"  name="location"></li>
+			<li><input type="button" value="上传图片" id="upload"></li>
+		</ul>
+	</form><br/>
+
+	<div id="re">
+		<div class="col-xs-1  item">
+				
+			</div>
+			<div class="col-xs-2  item" id="d1">
+				<img src="images/homepage2/matter/lhr.png" alt="">
+			</div>
+			<div class="col-xs-2  item" id="d2">
+				<img src="images/homepage2/matter/lss1.png" alt="">
+			</div>
+			<div class="col-xs-2  item" id="d3">
+				<img src="images/homepage2/matter/wjk.png" alt="">
+			</div>
+			<div class="col-xs-2  item" id="d4">
+				<img src="images/homepage2/matter/zyx3.png" alt="">
+			</div>
+			<div class="col-xs-2  item" id="d5">
+				<img src="images/homepage2/matter/yyqx2.png" alt="">
+			</div>
+			<div class="col-xs-1  item">
+				
+			</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/upload.js"></script>	
+</body>
+</html>

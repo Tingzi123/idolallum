@@ -1,0 +1,64 @@
+body{
+	background-image:url('../images/login/underground.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	z-index: -1
+}
+
+.container{
+	width: 100%;
+	/*text-align: center;*/
+}
+
+
+#login3{
+	position: fixed;
+	top: 25%;
+	left: 30%;
+}
+
+#register3{
+	position: fixed;
+	top: 27%;
+	left: 30.5%;
+}
+
+
+#login2{
+	position: fixed;
+	top: 50%;
+	left: 40%;
+}
+
+#register2{
+	position: fixed;
+	top: 50%;
+	left: 40%;
+}
+
+.p_user,.p_psd{
+	color: white;
+	font-size: 1.5em;
+}
+
+#btn{
+	color: white;
+	font-size: 1.2em;
+	position: fixed;
+	top: 48%;
+	left: 30.5%;
+	z-index: 4000;
+}
+
+.user,.psd{
+	width: 36rem;
+	border-radius: 1rem;
+}
+
+#tip{
+	position: fixed;
+	top: 55%;
+	left: 42%;
+	z-index: 6000;
+}
